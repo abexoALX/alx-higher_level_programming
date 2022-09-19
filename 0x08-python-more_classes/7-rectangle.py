@@ -22,6 +22,10 @@ class Rectangle:
         self.width = width
         self.height = height
     
+    def print_symbol(self, value):
+        """set print symbol"""
+        self.print_symbol = value
+
     @property
     def width(self):
         """ getter """
