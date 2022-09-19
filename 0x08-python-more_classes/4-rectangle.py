@@ -53,7 +53,9 @@ class Rectangle:
         else:
             r = "\n".join(["#" * self.__width for i in range(self.__height)])
             return r
-     
-     def __repr__(self):
-         """ object string format """
-         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
+
+    def __repr__(self):
+        """ object string format """
+        rect = "Rectangle(" + str(self.__width)
+        rect += ", " + str(self.__height) + ")"
+        return (rect)
