@@ -56,4 +56,4 @@ class Rectangle:
      
      def __repr__(self):
          """ object string format """
-         return f'Rectangle({self.__width}, {self.__height})'
+         return "Rectangle({:d}, {:d})".format(self.__width, self.__height)
