@@ -1,5 +1,4 @@
 #!/usr/bin/node
-#prints the number of movies where the character
 
 const request = require('request');
 request(process.argv[2], function (error, response, body) {
