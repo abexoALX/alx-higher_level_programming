@@ -1,1 +1,3 @@
-this is a repository for java script warm up excersise
+# 0x12-javascript-warm_up
+In this project, I learnt:
+
